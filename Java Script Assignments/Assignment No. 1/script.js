@@ -1,0 +1,3 @@
+// Alert is a built-in function in JavaScript that displays a dialog box with a specified message and an OK button. It is often used to provide feedback to the user or to alert them about something important. When the alert function is called, it pauses the execution of the script until the user clicks the OK button. This can be useful for debugging or for notifying users about errors or important information.
+
+alert("Hello, this is an alert message!");
