@@ -1,0 +1,31 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main, h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#box {
+    width: 200px;
+    height: 150px;
+    border:  2px solid black;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    background: #ffffff;
+}
+
+input {
+    width: 300px;
+    margin-bottom: 8px;
+    height: 40px;
+    font-size: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
