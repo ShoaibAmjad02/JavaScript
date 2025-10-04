@@ -18,3 +18,8 @@ function AC(){
     var input = document.getElementById("output");
     input.value = "";
 }
+
+function exponent(){
+    var input = document.getElementById("output");
+    input.value += "**";
+}
