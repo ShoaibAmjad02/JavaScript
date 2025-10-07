@@ -27,11 +27,15 @@
         <button onclick="add('-')"><i class="fa-solid fa-minus"></i></button>
         <button onclick="add('0')">0</button>
         <button onclick="add('.')">.</button>
-        <button onclick="exponent()">^</button>
-        <button onclick="add('Exp')">Exp</button>
-        <button onclick="add('Ans')">Ans</button>
+        <button id="without-shift" onclick="exponent()">^</button>
+        <button id="without-shift" onclick="add('Exp')">Exp</button>
+        <button id="without-shift" onclick="add('Ans')">Ans</button>
+        <button onclick="shift()">Shift</button>
+        <button onclick="add('(')">(</button>
+        <button onclick="add(')')">)</button>
+        <button onclick="antilog()">10()</button>
+        <button id="without-shift" onclick="log()">log</button>
         <button onclick="equals()"><i class="fa-solid fa-equals"></i></button>
-        
     </div>
     
     <script src="./script.js"></script>

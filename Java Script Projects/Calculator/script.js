@@ -23,3 +23,32 @@ function exponent(){
     var input = document.getElementById("output");
     input.value += "**";
 }
+
+function log(){
+    var input = document.getElementById("output");
+    input.value += "Math.log10(";
+}
+
+function shift(){
+    var shiftButton = document.querySelector("button[onclick='shift()']");
+    var buttons = document.querySelectorAll("#without-shift");
+    if(shiftButton.classList.contains("active")){
+        shiftButton.classList.remove("active");
+        buttons.forEach(button => {
+            button.disabled = false;
+        });
+    }
+    else{
+        shiftButton.classList.add("active");
+        buttons.forEach(button => {
+            if(button !== shiftButton){
+                button.disabled = true;
+            }
+        });
+    }
+}
+
+function antilog(){
+    var input = document.getElementById("output");
+    input.value += "Math.pow(10,";
+}
